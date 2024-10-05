@@ -28,6 +28,7 @@ this purpose. I've picked a representative set of commands I ran on the repo ove
 git clone https://github.com/oxidecomputer/omicron
 cd omicron
 git checkout f0b804818b898bebdb317ac2b000618944c02457
+cargo fetch
 cargo xtask download all
 ```
 
