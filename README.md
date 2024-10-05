@@ -49,8 +49,8 @@ The following commands were run as part of the test.
 See [`input_data.txt`](input_data.txt).
 
 - The first column is the command index, above.
-- The second column is time in seconds with hakari.
-- The third column is time in seconds without hakari.
+- The second column is wall-clock time in seconds with hakari.
+- The third column is wall-clock time in seconds without hakari.
 
 ### Charts
 
