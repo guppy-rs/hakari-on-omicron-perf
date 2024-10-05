@@ -40,6 +40,8 @@ Three datasets are gathered:
    To test this option out, edit `.config/hakari.toml` and add `unify-target-host = "none"` to the
    start of the file.
 
+   A diff with the changes is in [`unify-target-host-none.diff`](unify-target-host-none.diff): removed lines indicate feature sets unified across the target and host, and added lines indicate feature sets unified separately.
+
    See [`UnifyTargetHost`](https://docs.rs/hakari/0.17.4/hakari/enum.UnifyTargetHost.html) for more
    information.
 
