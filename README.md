@@ -109,7 +109,7 @@ The cumulative time spent is:
 - **Hakari without target-host unification:** 492 seconds
 - **Without hakari**: 717 seconds
 
-With hakari, this is a roughly 1.7x speedup. With hakari but without target-host unification, this is roughly a 1.5x improvement -- still substantial, but less so than otherwise.
+With hakari, this is a roughly 1.7x speedup. With hakari but without target-host unification, this is roughly a 1.5x improvement -- still substantial, but less so than the default hakari setup.
 
 Hakari feels even faster than that, though, because a number of the builds with it are no-ops (take
 less than a second).
