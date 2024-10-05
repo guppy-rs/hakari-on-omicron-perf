@@ -28,6 +28,7 @@ git clone https://github.com/oxidecomputer/omicron
 cd omicron
 git checkout f0b804818b898bebdb317ac2b000618944c02457
 cargo xtask download all
+cargo clean
 ```
 
 Omicron comes with hakari configured. To test without hakari, run:
