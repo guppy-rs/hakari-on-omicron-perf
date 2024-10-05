@@ -16,6 +16,7 @@ this purpose. I've picked a representative set of commands I ran on the repo ove
 - Operating system: Linux, Pop!\_OS 22.04 running kernel 6.9.3
 - Processor: AMD Ryzen 7950x, 16c/32t
 - RAM: 64GB DDR5 ECC UDIMM, 5200MT/s
+- Rust version: 1.80.1 (pinned via rust-toolchain.toml)
 - Filesystem: source file system is btrfs, compiled artifacts are on ext4; both are on separate NVMe
   drives.
 - Linker: `mold`
