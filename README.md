@@ -27,7 +27,7 @@ cargo clean
 
 ## Commands run
 
-The following commands were run as part of the test.
+The following commands were run as part of the test. This is a pretty representative sample of commands I've run against my repository in the last week.
 
 1. `cargo build`
 2. `cargo build --all-targets`
