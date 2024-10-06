@@ -2,14 +2,14 @@
 
 ## Introduction
 
-I'm the maintainer of [cargo-hakari](https://crates.io/crates/cargo-hakari), a manager for Cargo
-workspace-hack packages which do feature unification. [Rust RFC
-3692](https://github.com/rust-lang/rfcs/pull/3692) proposes adding feature unification to Cargo, and
-as part of that I wanted to gather some data to establish the performance benefits of feature
-unification.
+[cargo-hakari](https://crates.io/crates/cargo-hakari) is a manager for Cargo workspace-hack packages
+which do feature unification. [Rust RFC 3692](https://github.com/rust-lang/rfcs/pull/3692) proposes
+adding feature unification to Cargo, and as part of that, its maintainer
+[Rain](https://github.com/sunshowers) has gathered some data to establish the performance benefits
+of feature unification.
 
-I'm using the largest repository at Oxide, [Omicron](https://github.com/oxidecomputer/omicron), for
-this purpose. I've picked a representative set of commands I ran on the repo over the last week.
+The data was gathered against the largest repository at [Oxide](https://oxide.computer),
+[Omicron](https://github.com/oxidecomputer/omicron). (Oxide is Rain's employer as of October 2024.)
 
 ## Benchmark platform
 
@@ -32,7 +32,7 @@ cargo fetch
 cargo xtask download all
 ```
 
-Three datasets are gathered:
+Three datasets were gathered:
 
 1. **With hakari**: Omicron comes with hakari configured, so no extra work needs to be done.
 2. **Hakari without target-host unification**: This is the current proposal in RFC 3692: unify
@@ -55,7 +55,7 @@ Three datasets are gathered:
 
 ## Commands run
 
-The following commands were run as part of the test. This is a pretty representative sample of commands I've run against my repository in the last week.
+The following commands were run as part of the test. These were a representative sample of commands Rain ran against Omicron in the last week of September 2024.
 
 Before each series of commands, `cargo clean` was run.
 
