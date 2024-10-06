@@ -2,9 +2,10 @@
 
 ## Introduction
 
-[cargo-hakari](https://crates.io/crates/cargo-hakari) is a manager for Cargo workspace-hack packages
-which do feature unification. [Rust RFC 3692](https://github.com/rust-lang/rfcs/pull/3692) proposes
-adding feature unification to Cargo, and as part of that, its maintainer
+[cargo-hakari](https://docs.rs/cargo-hakari) is a manager for Cargo _workspace-hack packages_. These packages are used to perform feature unification, which can make Cargo builds significantly faster. For more information about cargo-hakari, see [_About cargo-hakari_](https://docs.rs/cargo-hakari/latest/cargo_hakari/about).
+
+[Rust RFC 3692](https://github.com/rust-lang/rfcs/pull/3692) proposes
+adding feature unification to Cargo. As part of the case for that, hakari's maintainer
 [Rain](https://github.com/sunshowers) has gathered some data to establish the performance benefits
 of feature unification.
 
