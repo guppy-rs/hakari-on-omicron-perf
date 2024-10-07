@@ -22,6 +22,7 @@ The data was gathered against the largest repository at [Oxide](https://oxide.co
 - Commit: [`f0b804818b89`](https://github.com/oxidecomputer/omicron/tree/f0b804818b898bebdb317ac2b000618944c02457)
 - Rust version: 1.80.1 (pinned via [`rust-toolchain.toml`](https://github.com/oxidecomputer/omicron/blob/f0b804818b898bebdb317ac2b000618944c02457/rust-toolchain.toml))
 - Linker: `mold`
+- Best of three runs. The measurements were all within 2-3% of each other, and two orders of magnitude smaller than the difference between the datasets.
 
 ## Preparation
 
